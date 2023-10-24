@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
     })
 })
 
-app.get('/sobre', (req, res) => res.render('sobre'))
+app.get('/email', (req, res) => res.render('email'))
 app.get('/contato', (req, res) => res.render('contato'))
 
 app.get('/posts', (req, res) => res.render('posts', {
